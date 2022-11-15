@@ -1,27 +1,20 @@
-#education{
-  padding: 35px;
+.row{
+  padding: 20px;
   border-bottom: solid 1px #ddcaac98;
   background-image: url("../../../assets/bg_estrellas5.png");
   width: 100%;
-  margin: 0;
+  object-fit: cover;
+}
+div{
   color: #f5ecdebd;
   font-family:'Josefin Sans', sans-serif;
-  align-items: center;
+  margin: 0;
 }
 
-.container{
-  width: auto;
-
-
-}
-.text, .image{
-  display: inline-block;
-  text-align:justify;
-}
-.img-educacion{
-  max-width: 10rem;
+h1, h4, h5, p{
+  display: inline;
+  padding: 20px;
+  color: #f5ecdebd;
+  font-family:'Josefin Sans', sans-serif;
 }
 
-.img-educacion:hover{
-  box-shadow: 10px 10px 100px #f5ecdebd;
-}

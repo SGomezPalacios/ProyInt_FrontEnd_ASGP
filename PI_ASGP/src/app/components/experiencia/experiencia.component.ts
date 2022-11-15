@@ -9,7 +9,7 @@ import { TokenService } from 'src/app/service/token.service';
   styleUrls: ['./experiencia.component.css']
 })
 export class ExperienciaComponent implements OnInit {
-  expe: Experiencia[] = [];
+  expe: Experiencia[]= [];
 
   constructor( private sExperiencia: SExperienciaService, private tokenService: TokenService) { }
 
