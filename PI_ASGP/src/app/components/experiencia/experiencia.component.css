@@ -1,21 +1,33 @@
 .row{
-  padding: 20px;
+  padding: 8rem;
   border-bottom: solid 1px #ddcaac98;
   background-image: url("../../../assets/bg_estrellas2.png");
   width: 100%;
   object-fit: cover;
+
 }
 div{
   color: #f5ecdebd;
   font-family:'Josefin Sans', sans-serif;
   margin: 0;
 }
-
-h1, h4, h5, p{
+h1{
+  display: inline;
+  padding-bottom: 2rem;
+  color: #f5ecdebd;
+  font-family:'Josefin Sans', sans-serif;
+  text-align: center;
+}
+h4, h5, p{
   display: inline;
   padding: 20px;
   color: #f5ecdebd;
   font-family:'Josefin Sans', sans-serif;
 }
 
+.table{
+  display: flex;
+  justify-content:center;
+  align-items: center;
 
+}
