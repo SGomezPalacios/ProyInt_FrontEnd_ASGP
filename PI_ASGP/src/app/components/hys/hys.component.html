@@ -4,7 +4,7 @@
     <button type="button" class= "btn btn-light" routerLink="/newskill" *ngIf="isLogged">Nueva skill</button>
   </div>
 
-  <div class="text-center col-sm-4 col-md-4 col-lg-4 circ" *ngFor="let skill of skill">
+  <div class="text-center col-sm-2 col-md-4 col-lg-4 circ" *ngFor="let skill of skill">
     <circle-progress
       [percent]="(skill.porcentaje)"
       [radius]="80"

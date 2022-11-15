@@ -1,15 +1,24 @@
-.row{
-  padding: 8rem;
-  border-bottom: solid 1px #ddcaac98;
+*{
+  padding:0;
+  margin:0;
+}
+
+.container-fluid{
   background-image: url("../../../assets/bg_estrellas5.png");
   width: 100%;
   object-fit: cover;
-}
-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: solid 1px #ddcaac98;
   color: #f5ecdebd;
   font-family:'Josefin Sans', sans-serif;
-  margin: 0;
+  padding: 5rem;
+
 }
+
+
 h1{
   display: inline;
   padding-bottom: 2rem;
@@ -19,7 +28,6 @@ h1{
 }
 h4, h5, p{
   display: inline;
-  padding: 20px;
   color: #f5ecdebd;
   font-family:'Josefin Sans', sans-serif;
 }
@@ -28,5 +36,6 @@ h4, h5, p{
   display: flex;
   justify-content:center;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
+
 }
